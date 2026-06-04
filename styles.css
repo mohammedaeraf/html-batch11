@@ -1,0 +1,19 @@
+body {
+  font-family: Arial;
+}
+h1 {
+  text-align: center;
+  color: orangered;
+}
+h2 {
+  color: cadetblue;
+}
+p {
+  border: 1px solid gray;
+  background-color: bisque;
+  padding: 12px;
+  color: gray !important;
+}
+ul {
+  list-style-type: square;
+}
