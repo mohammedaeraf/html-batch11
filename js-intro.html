@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Intro</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      p:hover {
+        color: rgb(44, 44, 193);
+      }
+    </style>
+    <script>
+      function changePara() {
+        let para1 = document.getElementById("para1");
+        // para1.style.display = "none";
+        para1.style.color = "red";
+        para1.style.fontStyle = "italic";
+        para1.style.fontFamily = "Algerian";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h2 class="text-primary">Intro to JavaScript</h2>
+      <p id="para1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero vitae
+        aut cum labore officiis quaerat voluptas omnis ut, sed quasi alias qui
+        fugit expedita voluptatibus enim deserunt, facere temporibus numquam.
+      </p>
+      <button class="btn btn-primary" onclick="changePara()">Click Me</button>
+    </div>
+  </body>
+</html>
