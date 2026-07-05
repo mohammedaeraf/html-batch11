@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio and Video Demo</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: aliceblue;
+        text-align: center;
+        margin: 40px;
+      }
+
+      h1 {
+        color: darkblue;
+      }
+
+      section {
+        background-color: white;
+        width: 500px;
+        margin: 25px auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px gray;
+      }
+
+      audio,
+      video {
+        width: 100%;
+        margin-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML Audio and Video Demo</h1>
+
+    <!-- Audio -->
+    <section>
+      <h2>🎵 Audio Example</h2>
+
+      <audio controls>
+        <source src="assets/audios/song.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <p>Click Play to listen to the audio.</p>
+    </section>
+
+    <!-- Video -->
+    <section>
+      <h2>🎬 Video Example</h2>
+
+      <video controls width="500">
+        <source src="assets/videos/sample-5s.mp4" type="video/mp4" />
+        Your browser does not support the video element.
+      </video>
+
+      <p>Click Play to watch the video.</p>
+    </section>
+  </body>
+</html>
